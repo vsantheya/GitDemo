@@ -50,6 +50,7 @@ public class LandingPage extends AbstractComponent{
 	public String getErrorMessage()
 	{
 		waitForWebElementToAppear(errorMessage);
+		System.out.println(errorMessage);
 		return errorMessage.getText();
 	}
 	
